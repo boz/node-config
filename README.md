@@ -1,4 +1,4 @@
-# node-config #
+# node-config [![Build Status](https://secure.travis-ci.org/boz/node-config.png)](http://travis-ci.org/boz/node-config) #
 
 Simple configuration for nodejs applications.
 
