@@ -1,0 +1,21 @@
+{
+  "name": "config",
+  "version": "0.1.0",
+  "main": "./lib/config.js",
+  "description": "Node.js configuration utility",
+  "author": "Adam Bozanich <adam.boz@gmail.com>",
+  "homepage": "http://github.com/boz/node-config",
+  "directories": {
+    "lib" : "./lib"  ,
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "mocha -u tdd test/*"
+  },
+  "dependencies": {
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
