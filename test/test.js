@@ -6,7 +6,7 @@ var assert = require("assert"),
 suite("Config",function(){
   suite("constructor arguments",function(){
     test("basedir should default to the current directory",function(){
-      assert.equal(process.cwd(),new config().basedir);
+      assert.equal(path.join(process.cwd(),'config'),new config().basedir);
     });
     test("basedir should be overridden by the first argument",function(){
       assert.equal("abc",new config("abc").basedir);
