@@ -60,7 +60,7 @@ suite("Config",function(){
     });
     test("#files",function(){
       var files = this.config.files();
-      assert.equal(files.length,2);
+      assert.equal(files.length,3);
       assert.ok(_.findWhere(files,{"type":"json"}));
       assert.ok(_.findWhere(files,{"type":"yml"}));
     });

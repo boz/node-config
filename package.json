@@ -10,7 +10,7 @@
     "test": "./test"
   },
   "scripts": {
-    "test": "mocha -u tdd test/*"
+    "test": "mocha -u tdd test/test.js"
   },
   "dependencies": {
     "underscore": "*"
