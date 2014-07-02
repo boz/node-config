@@ -1,13 +1,16 @@
 {
   "name": "config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "./lib/config.js",
   "description": "Node.js configuration utility",
   "author": "Adam Bozanich <adam.boz@gmail.com>",
   "homepage": "http://github.com/boz/node-config",
+  "repository": {
+    "type": "git",
+    "url" : "http://github.com/boz/node-config.git"
+  },
   "directories": {
-    "lib" : "./lib"  ,
-    "test": "./test"
+    "lib" : "./lib"
   },
   "scripts": {
     "test": "mocha -u tdd test/test.js"
